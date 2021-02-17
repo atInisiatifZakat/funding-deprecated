@@ -1,0 +1,35 @@
+{
+    "name": "inisiatif/funding-deprecated",
+    "description": "Deprecated funding attribute",
+    "license": "proprietary",
+    "type": "library",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.packagist.com/inisiatif/"
+        },
+        {
+            "packagist.org": false
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inisiatif\\Funding\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
